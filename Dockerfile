@@ -29,5 +29,4 @@ HEALTHCHECK --interval=30s --timeout=3s --start-period=5s --retries=3 \
 
 STOPSIGNAL SIGQUIT
 CMD ["nginx", "-g", "daemon off;"]
-inx
 CMD ["nginx", "-g", "daemon off;"]
